@@ -23,3 +23,11 @@ l = len(lists)
 print(lists)
 
 #  .remove removes values from lists and   .extend adds to lists.
+
+# If/else
+
+condition = (5 == 3)
+if condition:#If "Condition" is true
+  print('ur in a diffrent universe')
+else:#If "Condition is false"
+  print('YOure in the same universe')
