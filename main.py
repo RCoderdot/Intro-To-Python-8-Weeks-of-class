@@ -35,3 +35,8 @@ i = 0
 while i < 223:
   i = i + 2
   print(i)
+
+#use while True:
+while True:#infine loop; Repeats the ufnction infinity times unless break function is used.
+  print('Na Na Na Boo Boo')
+  break
