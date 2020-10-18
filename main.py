@@ -25,9 +25,13 @@ print(lists)
 #  .remove removes values from lists and   .extend adds to lists.
 
 # If/else
-
 condition = (5 == 3)
 if condition:#If "Condition" is true
   print('ur in a diffrent universe')
 else:#If "Condition is false"
   print('YOure in the same universe')
+
+i = 0
+while i < 223:
+  i = i + 2
+  print(i)
