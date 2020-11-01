@@ -73,4 +73,13 @@ def greeting():
   print('Hello!')
 greeting()
 
-#
+#Functions with Parameters
+numone = 10
+numtwo = 23
+def add(numone, numtwo):
+  result = numone + numtwo
+  return result
+
+#adding numbers without varibles
+sum = add(2, 3)
+print(sum)
