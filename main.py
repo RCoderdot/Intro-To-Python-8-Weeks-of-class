@@ -40,3 +40,32 @@ while i < 223:
 while True:#infine loop; Repeats the ufnction infinity times unless break function is used.
   print('Na Na Na Boo Boo')
   break
+
+i = 2
+while i < 39:
+  print(i)
+  i += 7
+
+#For loops
+words = "These are my words!"
+for c in words:
+  print(c)
+
+#For loops with range()
+for i in range(1, 11):
+  print('I am currently on a loop number ' + str(i))
+  import time
+  time.sleep(0.1)
+  #ex. I am currently on loop number 1
+  #I am currently on loop number 2
+  #I am currently on loop number 3 ect. ect.
+
+#Tuples, Cannot change values
+myTuple = ("This", "Is", "A", "Tuple")
+print(myTuple)
+
+#Dictionary:
+myDict = {"eggs":2, "milk":3, "cookies":4}
+print(myDict["cookies"])
+
+#
