@@ -92,3 +92,9 @@ def my_example(fname):
 Name1 = my_example('Chrissy')
 Name2 = my_example('Chris')
 print(Name1 + ". " + Name2)
+
+#Factorials
+def factorial (number):
+  if number == 1:
+    return 1
+  return number * factorial(number - 1)
