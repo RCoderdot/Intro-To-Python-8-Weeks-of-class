@@ -83,3 +83,12 @@ def add(numone, numtwo):
 #adding numbers without varibles
 sum = add(2, 3)
 print(sum)
+
+#Return Statements
+
+def my_example(fname):
+  return fname + " is the name"
+
+Name1 = my_example('Chrissy')
+Name2 = my_example('Chris')
+print(Name1 + ". " + Name2)
