@@ -68,4 +68,9 @@ print(myTuple)
 myDict = {"eggs":2, "milk":3, "cookies":4}
 print(myDict["cookies"])
 
+#Functions
+def greeting():
+  print('Hello!')
+greeting()
+
 #
