@@ -37,7 +37,7 @@ while i < 223:
   print(i)
 
 #use while True:
-while True:#infine loop; Repeats the ufnction infinity times unless break function is used.
+while True:#infine loop; Repeats the ffnction infinity times unless break function is used.
   print('Na Na Na Boo Boo')
   break
 
@@ -109,3 +109,24 @@ list_ = [
   [4, 5, 6],
   [7, 8, 9]
 ]
+
+#Nested loops
+
+for i in range (len(list_)):
+  for j in range (len(list_[0])):
+    print(j)
+
+for i in list_:
+  for j in i:
+    print(j)
+
+#Week 6
+
+class Dog:
+  species = "GOlden Retriver"
+
+  def __init__(self, age, year):
+    print("Dog has been created, and it is " + str(age) + " years old")
+
+Proty = Dog(9)
+print(Proty.species)
