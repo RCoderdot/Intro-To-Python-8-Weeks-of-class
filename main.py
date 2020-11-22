@@ -124,7 +124,7 @@ for i in list_:
 
 class Dog:
   species = "GOlden Retriver"
-
+#__init__ is just the anme. Can be anything you want it to be.
   def __init__(self, age, year):
     print("Dog has been created, and it is " + str(age) + " years old")
 
